@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<title>Лабораторна робота №3</title>
+<script src="lab3_lib.js"></script>
+<script src="lab3.js"></script>
+</head>
+<body>
+
+<h2>1. Поточна дата</h2>
+<button onclick="showCurrentDate()">Виконати</button>
+<div id="currentDate"></div>
+
+<h2>2. День тижня</h2>
+<button onclick="showDayInfo()">Виконати</button>
+<div id="dayInfo"></div>
+
+<h2>3. N днів назад</h2>
+<input type="text" id="daysAgo">
+<button onclick="calcDaysAgo()">Виконати</button>
+<div id="daysAgoResult"></div>
+
+<h2>4. Останній день місяця</h2>
+<input type="text" id="year">
+<input type="text" id="month">
+<button onclick="lastDay()">Виконати</button>
+<div id="lastDayResult"></div>
+
+<h2>5. Секунди сьогодні</h2>
+<button onclick="secondsInfo()">Виконати</button>
+<div id="secondsResult"></div>
+
+<h2>6. Формат дати</h2>
+<button onclick="formatNow()">Виконати</button>
+<div id="formatResult"></div>
+
+<h2>7. Різниця дат</h2>
+<input type="date" id="date1">
+<input type="date" id="date2">
+<button onclick="dateDiff()">Виконати</button>
+<div id="diffResult"></div>
+
+<h2>8. formatDate</h2>
+<button onclick="formatTest()">Виконати</button>
+<div id="formatTestResult"></div>
+
+<h2>9. Парсинг дати</h2>
+<input type="text" id="dateString">
+<button onclick="parseDate()">Виконати</button>
+<div id="parseResult"></div>
+
+<h2>10. Дата мовою</h2>
+<input type="text" id="lang">
+<button onclick="formatLang()">Виконати</button>
+<div id="langResult"></div>
+
+</body>
+</html>
